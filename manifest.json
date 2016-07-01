@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "스쿱 북마크",
+  "description": "",
+  "version": "0.98",
+
+  "browser_action": {
+    "default_icon": "icon-128.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+     "16": "icon-16.png",
+     "48": "icon-48.png",
+     "128": "icon-128.png" },
+  "background" : { "scripts": ["background.js"] },
+  "permissions": [
+    "contextMenus", "activeTab", "downloads"
+  ]
+}

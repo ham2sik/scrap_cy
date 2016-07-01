@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>SCOOP 하기</title>
+<style>
+* {margin:0;padding:0;vertical-align:top;}
+body {width:400px;font-family:'맑은 고딕',Malgun Gothic,'돋움',Dotum,'굴림',Gulim,Helvetica,sans-serif;font-size: 100%;}
+.scoopTitle {height:39px;padding-top:16px;font-size:17px;font-weight:bold;color:#fff;text-align:center;line-height:50px;background:#88e8df;}
+.infoTxt {padding:20px;font-size:16px;color:#5d5d5d;text-align:center;}
+
+.imgList {width:100%;background-color:#FFF;overflow-x:hidden;overflow-y:auto;}
+.imgList li {float:left;width:172px;padding-left:16px;padding-bottom:16px;list-style-type:none;}
+.imgList li a {display:block;border:2px solid #eee;}
+.imgList li a:hover {border:2px solid #78e0d7;}
+.imgList li img {width:168px;}
+#images_cache {display:none;}
+</style>
+		<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="popup.js"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<p class="scoopTitle"><a href="http://www.scoop-scoop.com/" target="_blank"><img src="http://c1img.cyworld.co.kr/img/scoop/common/img_logo.png" alt="scoop"></a></p>
+			<p class="infoTxt">이미지를 추출중입니다.</p>
+			<ul class="imgList">
+			</ul>
+		</div>
+		<div id="images_cache"></div>
+		<div class="ifr">
+		</div>
+	</body>
+</html>
+
